@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 18px;
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s, font-weight 0.3s;
+}
+
+li[style*="display: block;"] {
+    display: block;
+}
+
+li[style*="display: none;"] {
+    display: none;
+}
+
+li[style*="font-weight: bold;"] {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+ 
